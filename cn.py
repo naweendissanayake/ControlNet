@@ -205,8 +205,8 @@ def main(input_folder: str, output_folder: str, yolo_path: str, sam_checkpoint: 
 
 if __name__ == "__main__":
     main(
-        input_folder="C:/Users/n.dissanayake.GEOSATING/upwork/images",
+        input_folder "images",
         output_folder="controlNet2",
-        yolo_path="C:/Users/n.dissanayake.GEOSATING/upwork/runs/segment/yoloseg6/weights/best.pt",
+        yolo_path "best.pt",
         sam_checkpoint="sam_vit_h_4b8939.pth",
     )
